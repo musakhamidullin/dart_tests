@@ -14,20 +14,20 @@ void main(List<String> arguments) {
   //
   // final List<int> l3 = const [0];
   // l3.add(2);
-  // print(l4);
+  // print(l3);
   //
   // List<int> l4 = const [0];
   // l4.add(2);
-  // print(l3);
+  // print(l4);
 
   ///What is print outputs?
   ///Why?
-  final list1 = [1, 2];
-  final list2 = [1, 2];
-  final list3 = list1;
-
-  print(list1 == list2);
-  print(identical(list1, list2));
-  print(list1 == list3);
-  print(identical(list1, list3));
+  // final list1 = [1, 2];
+  // final list2 = [1, 2];
+  // final list3 = list1;
+  //
+  // print(list1 == list2);
+  // print(identical(list1, list2));
+  // print(list1 == list3);
+  // print(identical(list1, list3));
 }
